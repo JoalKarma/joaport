@@ -1,0 +1,14 @@
+.en_travaux{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    i{
+        font-size: 6rem;
+        margin-bottom: 20px;
+        color: #800;
+        animation: spinner 2s infinite linear;
+    }
+}

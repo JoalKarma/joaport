@@ -1,0 +1,29 @@
+.formulaire{
+    @include column;
+    width: 40%;
+    font-family: $fontgeneral;
+}
+input{
+    margin-bottom: 15px;
+    height: 20px;
+    padding: 0px 0px 5px 0px;
+    border: none;
+    border-bottom: 2px black solid;
+    &:focus{
+        border-bottom: 2px black solid;
+    }
+}
+textarea{
+    border: none;
+    border-bottom: 2px black solid;
+    &:focus{
+        border-bottom: 2px black solid;
+    }
+}
+label{
+    margin-bottom: 5px;
+}
+.envoyer{
+    margin: 20px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
+}

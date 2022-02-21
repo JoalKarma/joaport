@@ -1,0 +1,10 @@
+button{
+    border-style: none;
+    background-color: #c1c1c1;
+    border-radius: 15px;
+    transition: all 200ms ease-in;
+    &:hover{
+        background-color: #800;
+        color: white;
+    }
+}

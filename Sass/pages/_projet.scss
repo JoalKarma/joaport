@@ -1,0 +1,30 @@
+.projet, .projet_dernier{
+    @include row{
+        align-items: center;
+    }
+    width: 70%;
+    margin: auto;
+    padding: 40px;    
+    p{
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+    @media (max-width:768px){
+        @include column
+    }
+}
+.projet{
+    border-bottom: 1px black solid;
+    
+}
+.img_logo{
+    margin-right: 20px;
+    img{
+        width: 200px;
+    }
+    @media (max-width:768px){
+        margin-bottom: 25px;
+    }
+}
+
+

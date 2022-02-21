@@ -1,0 +1,27 @@
+.title{
+    @include column{
+        align-items: center;
+        justify-content: center;
+        height: 250px;
+        color: whitesmoke;
+        text-align: center;
+        background: #800;
+        border-bottom: 2px black solid;
+        font-family: $fontgeneral;
+        position: relative;
+        z-index: -11;
+    }
+    div{
+        @include column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        min-height: 130px;
+        height: 100%;
+        width: 80%;
+        h1{
+            margin-bottom: 20px;
+        }
+    }
+}

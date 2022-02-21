@@ -1,0 +1,29 @@
+.contact{
+    width: 80%;
+    @include row{
+        justify-content: space-evenly;
+    }
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @media (max-width:768px) {
+        @include column
+    }
+    div{
+        @media (max-width:992px){
+            width: 100%;
+        }
+    }
+}
+.info{
+    p{
+        margin: 15px;
+        i{
+            margin-right: 15px;
+        }
+    }
+    @media (max-width:992px){
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+}
