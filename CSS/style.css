@@ -123,16 +123,21 @@ header {
   font-family: "Azeret Mono", monospace;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: white;
   height: 100px;
-  padding: 0 20px 0 20px;
+  padding: 0px 50px 0px 50px;
   background-image: linear-gradient(45deg, #25062e 0%, #25062e 28%, #421b3b 28%, #421b3b 31%, #603048 31%, #603048 59%, #7d4555 59%, #7d4555 66%, #9a5a61 66%, #9a5a61 68%, #b86f6e 68%, #b86f6e 94%, #d5847b 94%, #d5847b 100%), linear-gradient(112.5deg, #25062e 0%, #25062e 28%, #421b3b 28%, #421b3b 31%, #603048 31%, #603048 59%, #7d4555 59%, #7d4555 66%, #9a5a61 66%, #9a5a61 68%, #b86f6e 68%, #b86f6e 94%, #d5847b 94%, #d5847b 100%), linear-gradient(90deg, #25062e 0%, #25062e 28%, #421b3b 28%, #421b3b 31%, #603048 31%, #603048 59%, #7d4555 59%, #7d4555 66%, #9a5a61 66%, #9a5a61 68%, #b86f6e 68%, #b86f6e 94%, #d5847b 94%, #d5847b 100%), linear-gradient(135deg, #25062e 0%, #25062e 28%, #421b3b 28%, #421b3b 31%, #603048 31%, #603048 59%, #7d4555 59%, #7d4555 66%, #9a5a61 66%, #9a5a61 68%, #b86f6e 68%, #b86f6e 94%, #d5847b 94%, #d5847b 100%), linear-gradient(90deg, #64cd1a, #2e2471);
   background-blend-mode: overlay, overlay, overlay, overlay, normal;
 }
 header .logo {
   height: 170%;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 0px 15px 0px 15px;
+  }
 }
 
 .nav_header {
